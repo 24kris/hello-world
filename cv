@@ -1,0 +1,269 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% This is a modified ONE COLUMN version of
+% the following template:
+% 
+% Deedy - One Page Two Column Resume
+% LaTeX Template
+%
+% Original author:
+% Debarghya Das (http://debarghyadas.com)
+%
+% Original repository:
+% https://github.com/deedydas/Deedy-Resume
+%
+% Online Editor:
+% https://www.overleaf.com/latex/templates/deedy-resume/sqdbztjjghvz#.VYRRVnWUdpg
+%
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+%
+% This template uses several fonts not included with Windows/Linux by
+% default. If you get compilation errors saying a font is missing, find the line
+% on which the font is used and either change it to a font included with your
+% operating system or comment the line out to use the default font.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[]{deedy-resume-openfont}
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     LAST UPDATED DATE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \lastupdated
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     NAME
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\namesection{Krishnakant}{Deshmukh}{ Second year Undergraduate  \\
+Department of Electrical Engineering | Indian Institute of Technology Kharagpur \\
+\href{mailto:krishdeshmukh24@gmail.com}{krishdeshmukh24@gmail.com} | +91-9800449444 | \href{https://github.com/24kris}{www.github.com/24kris}
+}
+
+\sectionsep
+\section{Education}
+\runsubsection{IIT Kharagpur}
+\descript{| B.Tech in Electrical Engineering}
+\location{Expected Year of Graduation - 2019 | Kharagpur, WB \\ 
+\textbullet{} Cum. GPA: 8.84/10.0 (After 3rd Semester)}
+\sectionsep
+
+% \runsubsection{J.H.Ambani School}
+% \descript{| 10\textsuperscript{TH} and 12\textsuperscript{TH} Grade (CBSE)}
+% \location{Completed May 2013 | Lodhivali, Maharashtra \\
+% \textbullet{}
+% 89.8\% in CBSE 12\textsuperscript{TH} Boards \\
+% \textbullet{}
+% Cum. GPA: 9.8/10.0 in CBSE 10\textsuperscript{TH} Boards}
+% \sectionsep
+% \section{Publications}
+% \bibliographystyle{ieeetr}
+% > entries ordered alphabetically, with reference markers based on authors' initials and publication year
+% \bibliographystyle{alpha}
+
+% External bibliography database file in the BibTeX format (ExtendedAbstract_ref_db.bib)
+% [1] \hspace{0.2 mm} Mayank Singh, \custombold{Barnopriyo Barua}, Priyank Palod, Manvi Garg, Sidhartha Satapathy, Samuel Bushi, Kumar Ayush, Krishna Sai \\
+% \hspace{5 mm} Rohith, Tulasi Gamidi, Pawan Goyal and Animesh Mukherjee. "OCR++: A Robust Framework For Information Extraction from \\ \hspace{5 mm} Scholarly Articles", in the 26th \custombold{International Conference on Computational Linguistics} (COLING 2016), Osaka, Japan (to \\
+% \hspace{5 mm} appear).
+
+% \bibliography{references}
+% \sectionsep
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     RESEARCH
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Research Project}
+\runsubsection{Aerial Robotics Kharagpur}
+\\
+\descript{| March 2016 - Present}
+\location{{\href{https://quadrotor-iitkgp.github.io/}{https://quadrotor-iitkgp.github.io/}} \\
+Guide : \href{http://www1.iitkgp.ac.in/fac-profiles/showprofile.php?empcode=aVmWZ&depts_name=MM}{Prof. Somesh Kumar}, Department of Mathematics, (Sponsored by: Sponsored Research and Industrial Consultancy )}
+% Guides : Prof. Pawan Goyal, Prof. Animesh Mukherjee }
+
+\sectionsep
+
+
+\section{Self Projects}
+\runsubsection{Path Imitating and Motion Replicating Robot}
+\descript{| December 2016}
+% \location{}
+\begin{tightemize}
+
+\item Built two bots where one is line-follower and the other was automated to copy its actions.
+
+\item Using light sensing array and bluetooth module the task was accomplished.
+\item Real life applications are tunnel and area mapping where one bot roams the area and another bot creates it's map by mimicing the first bot.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Gesture-Controlled Forklift }
+\descript{| January 2016}
+% \location{}
+\begin{tightemize}
+\item Built a button-less robot that traverses and acts as an forklift using only hand gestures.
+
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Autonomous Person Follower Turret}
+\descript{| December 2015}
+% \location{}
+\begin{tightemize}
+\item Designed and built an autonomous robot that follows a person/object aims the turret towards that target .
+\item A sonar system were used and triangultion technique was implemented to determine the position of the target object in 2D environment . Then using a servo motor the turret was aimed towards the target.
+
+\end{tightemize}
+\sectionsep
+
+
+
+
+% \runsubsection{MagguLater: Such Acads Much WOW}
+% \descript{| March 2016}
+% \location{{\href{https://github.com/barno0695/maggulater}{github.com/barno0695/maggulater}}}
+% \begin{tightemize}
+% \item Developed a Django based \custombold{course management website} with user roles(students,faculty,admin).
+% \item Implemented courses and course calender for every student and faculty.
+% \end{tightemize}
+
+
+% \runsubsection{Image Processing based Lane Follower} 
+% \descript{| Dec 2014}
+% \location{Technology Robotix Society | IIT Kharagpur}
+% \begin{tightemize}
+% \item Built an \custombold{autonomous robot that follows a lane} using a camera in an IEEE certified workshop.
+% \item Used the \custombold{OpenCV} library to achieve the image processing objectives.
+% \end{tightemize}
+\section{Work Experience}
+
+\runsubsection{Cognitio}
+\descript{| Operations Manager  }
+\location{October 2015 - January 2016}
+\begin{tightemize}
+
+\item I was expected to handle the various operations of the AISAT exam conducted by Cognitio in the Indian West Zone constituted of 5 states. Operations ranged from recruiting undergraduate students to conduct workshops in various schools and carrying out the aptitude exams successfully. 
+\end{tightemize}
+\sectionsep
+\runsubsection{Robotix Winter Workshop 2016}
+\descript{| Mentor  }
+\location{December 2016}
+\begin{tightemize}
+
+\item Successfully organised and mentored a workshop on AVR microcontrollers, Arduino and basics of Electronics.
+\item The workshop is certified by IEEE and a huge participation was observed from first and second year students.
+\end{tightemize}
+\sectionsep
+% \sectionsep
+ \section{Academic Qualifications} 
+%  \vspace{\topsep}
+% \begin{tightemize}
+
+\textbullet{} \custombold{All India Rank 1068} in IIT-Joint Entrance Examination 2015. \\
+\textbullet{} Scored \custombold{94.46\%} in HSC Board Examination(12th Standard)\\
+\textbullet{}Scored \custombold{93.83\%} in SSC Board Examination(10th Standard) \\
+% \textbullet{} 3\textsuperscript{rd} in Exhibition of Experiments in DAV's National Science Festival KHOJ 2011. \\
+% \textbullet{} TCS IT WIZ 2011 Regional Finalists (Mumbai Region) {5\textsuperscript{th} out of 600+ teams}. \\
+% % \item Gold in Open IIT Choreography 2014.
+% % \item Bronze in Open IIT Dumb Charades 2014.
+% % \item Successfully submitted a Windows phone application in Microsoft's Code.Fun.Do 2015.
+% \end{tightemize}
+\sectionsep
+\section{Skills}
+\begin{minipage}[t]{.4\textwidth}
+\subsection{Languages}
+C  \textbullet{} Python \textbullet{} HTML \textbullet{} CSS \\
+
+% \location{Beginner}
+% R \textbullet{} ReactJS \textbullet{} C\# \textbullet{} \LaTeX
+\sectionsep
+\end{minipage}
+\hfill
+\begin{minipage}[t]{.55\textwidth}
+\subsection{Softwares, Tools and Libraries}
+\begin{minipage}[t]{.25\textwidth}
+\textbullet{} ROS \\
+\textbullet{} Matlab \\
+\end{minipage}
+\hfill
+\begin{minipage}[t]{.65\textwidth}
+\textbullet{} Git \\
+% \textbullet{} Microsoft Visual Studio \\ 
+\end{minipage}
+% \sectionsep
+\end{minipage}
+
+\section{Relevant Coursework} 
+% \custombold{\textsuperscript{*} Ongoing Courses}
+\begin{minipage}[t]{.35\textwidth}
+\textbullet{} Programming \& Data Structures \\
+\textbullet{} Signals \& Networks  \\
+\textbullet{} Measurement and Electrical Instruments (ongoing) \\
+
+% \textbullet{} Computer Org. and Architecture \\
+% \vspace{1 mm}
+% \location{\textsuperscript{*} Ongoing Courses}
+% \vspace{0.1 mm}
+% \hspace{120mm} \custombold{\textsuperscript{*} Ongoing Courses}
+% \\
+% \sectionsep
+\end{minipage}
+\hfill
+\begin{minipage}[t]{.34\textwidth}
+\textbullet{} Introduction to Electronics \\ 
+% \textsuperscript{*} \\
+\textbullet{} Electrical Machines (ongoing) \\
+\textbullet{} Analog Electronics (ongoing) \\
+% \textsuperscript{*} \\
+
+% \textsuperscript{*} \\
+
+% \textbullet{} Formal Language and Automata Theory \\
+% \textbullet{} Discrete Structures \\
+% \textbullet{} Switching Circuits and Logic Design \\ 
+% \textbullet{} Matrix Algebra \\
+
+
+ 
+% \textsuperscript{*} \\
+% \textbullet{} Advanced Graph Theory \textsuperscript{*} \\
+\end{minipage}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     AWARDS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 	  EXTRA CURRICULAR ACTIVITIES
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Extra Curricular Activities}
+\textbullet{} {Currently in National Cadet Corps (NCC) }\\
+\textbullet{} {Member of Inter Hall Team of Hardware-Modelling }\\
+\textbullet{} {Member of Inter Hall Team of Football, Water Polo }\\
+\textbullet{} {Inter Hall Advertisement Design Competition | August 2016 }\\
+\sectionsep 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     LINKS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% \section{Links} 
+
+% Github:// \href{https://github.com/barno0695}{\custombold{barno0695}} \\
+% LinkedIn://  \href{https://www.linkedin.com/in/barnopriyo}{\custombold{barnopriyo}} \\
+% Facebook:// \href{https://facebook.com/barno0695}{\custombold{barno0695}} \\
+% Twitter://  \href{https://twitter.com/barnopriyo}{\custombold{@barnopriyo}} \\
+% Codechef:// \href{https://codechef.com/users/barno}{\custombold{barno}} \\
+% Codeforces:// \href{https://codeforces.com/profile/barno}{\custombold{barno}} \\
+\end{document}
